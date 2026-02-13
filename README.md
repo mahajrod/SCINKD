@@ -86,6 +86,9 @@ Rscript hapmer_plot.R Anniella_stebbinsi_HiFi_2024.asm.hic 10 Chromosomes F T
 
 # Plot with colored scaffold points and scaffold labels
 Rscript hapmer_plot.R Anniella_stebbinsi_HiFi_2024.asm.hic 10 Chromosomes T T
+
+# Plot with colored scaffold points and scaffold labels and use whitelist file 
+Rscript hapmer_plot.R Anniella_stebbinsi_HiFi_2024.asm.hic scaffold.whitelist Chromosomes T T
 ```
 
 This plotting establishes the relationship between chromosome length and number of haplotype-specific kmers, as well as the sex chromosomes that significantly deviate from this expectation:
